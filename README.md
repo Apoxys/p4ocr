@@ -1,15 +1,6 @@
 # p4ocr
 
-TODO
-inspecteur console
+Some files are minified : 
+If modifying style.css|bootstrap.css, DO NOT FORGET TO MINIFY into style.min.css|bootstrap.min.css
 
-optimiser vitesse : check feuille de style / script + taille d'image
-compresser image
-
-faire un tour du coté des outils analytics
-
-pagespeed -> capture d'écran mobile et pc
-Rapport de vitesse PUIS refaire pour après optimisation
-Screenshot faits -> à checker
-
-Sitemaps.xml inexsistant / liens cassés / images pas au bon format, texte alt à revoir entièrement
+IF modifying blocs.js|bootstrap.js|jquery-2.1.0.js|gmaps.js, DO NOT FORGET TO MINIFY into blocs.min.js|bootstrap.min.js|jquery-2.1.0.min.js|gmaps.min.js
