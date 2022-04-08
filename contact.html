@@ -26,7 +26,7 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
@@ -105,29 +105,29 @@
 					<h2>Présentez-nous votre projet</h2>
 					<form id="form_1" novalidate success-msg="Your message has been sent."
 						fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-						<div class="form-group">
-							<label>
-								Nom
-							</label>
-							<input id="name" class="form-control" required />
-						</div>
-						<div class="form-group">
-							<label>
-								Adresse email
-							</label>
-							<input id="email" class="form-control" type="email" required />
-						</div>
-						<div class="form-group">
-							<label>
-								Comment nous avez-vous connu ?
-							</label>
-							<input class="form-control" type="email" required id="input_504" />
-						</div>
-						<div class="form-group">
-							<label>
-								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-						</div>
+						<!-- <div class="form-group"> -->
+						<label class="form-group">
+							Nom
+						</label>
+						<input id="name" class="form-control" required /><br>
+						<!-- </div> -->
+						<!-- <div class="form-group"> -->
+						<label class="form-group">
+							Adresse email
+						</label>
+						<input id="email" class="form-control" type="email" required /><br>
+						<!-- </div> -->
+						<!-- <div class="form-group"> -->
+						<label class="form-group">
+							Comment nous avez-vous connu ?
+						</label>
+						<input class="form-control" type="email" id="input_504" required /><br>
+						<!-- </div> -->
+						<!-- <div class="form-group"> -->
+						<label class="form-group">
+							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea><br>
+						<!-- </div> -->
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
 						</button>
@@ -135,11 +135,11 @@
 				</div>
 				<div class="col-sm-6">
 					<p class="info-contact">
-						<a href="mailto:contact@agencelapanthere.com">contact@agencelapanthere.com</a><br><iframe
-							id="location-gmap"
-							src="https://www.openstreetmap.org/search?query=%092%20place%20Sathonay%2069001%20#map=19/45.76944/4.83008"></iframe>
+						<a href="mailto:contact@agencelapanthere.com">Mail : contact@agencelapanthere.com</a><br>
 						2 place
-						Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+						Sathonay 69001 Lyon<br><iframe id="location-gmap"
+							src="https://www.openstreetmap.org/search?query=%092%20place%20Sathonay%2069001%20#map=19/45.76944/4.83008"></iframe><br>
+						<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 					</p>
 				</div>
 			</div>
