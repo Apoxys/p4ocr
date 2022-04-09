@@ -106,28 +106,32 @@
 					<form id="form_1" novalidate success-msg="Your message has been sent."
 						fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 						<div class="form-group">
-						<label for="Nom">
-							Nom
-						</label>
-						<input id="name" name="Nom" class="form-control" required />
+							<label>
+								Nom
+								<input id="name" class="form-control" required aria-labelledby="Nom" />
+							</label>
 						</div>
-						<!-- <div class="form-group"> -->
-						<label class="form-group">
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required /><br>
-						<!-- </div> -->
-						<!-- <div class="form-group"> -->
-						<label class="form-group">
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" id="input_504" required /><br>
-						<!-- </div> -->
-						<!-- <div class="form-group"> -->
-						<label class="form-group">
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea><br>
-						<!-- </div> -->
+						<div class="form-group">
+							<label>
+								Adresse email
+								<input id="email" class="form-control" type="email" required
+									aria-labelledby="Adresse email" />
+							</label>
+						</div>
+						<div class="form-group">
+							<label>
+								Comment nous avez-vous connu ?
+								<input class="form-control" type="email" id="input_504" required
+									aria-labelledby="Comment nous avez-vous connu ?" />
+							</label>
+						</div>
+						<div class="form-group">
+							<label>
+								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+								<textarea id="message" class="form-control" rows="4" cols="50" required
+									aria-labelledby="Brief de votre projet"></textarea>
+							</label>
+						</div>
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
 						</button>
@@ -164,22 +168,26 @@
 					<div class="row row-no-gutters social">
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="#" title="Notre Twitter"><span class="fa fa-twitter icon-md"></span></a>
+								<a class="social" href="#" title="Notre Twitter"><span
+										class="fa fa-twitter icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="#" title="Notre Facebook"><span class="fa fa-facebook icon-md"></span></a>
+								<a class="social" href="#" title="Notre Facebook"><span
+										class="fa fa-facebook icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="#" title="Notre Dribble"><span class="fa fa-dribbble icon-md"></span></a>
+								<a class="social" href="#" title="Notre Dribble"><span
+										class="fa fa-dribbble icon-md"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="#" title="Notre Instagram"><span class="fa fa-instagram icon-md"></span></a>
+								<a class="social" href="#" title="Notre Instagram"><span
+										class="fa fa-instagram icon-md"></span></a>
 							</div>
 						</div>
 					</div>
